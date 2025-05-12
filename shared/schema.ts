@@ -111,6 +111,7 @@ export const appointments = pgTable("appointments", {
   email: text("email").notNull(),
   phone: text("phone").notNull(),
   appointmentType: text("appointment_type").notNull(),
+  reminderPreference: text("reminder_preference").notNull(),
   message: text("message"),
   status: text("status").notNull().default("pending"),
   createdAt: timestamp("created_at").notNull().defaultNow(),

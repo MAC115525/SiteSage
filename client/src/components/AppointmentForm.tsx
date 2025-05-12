@@ -32,6 +32,7 @@ const appointmentFormSchema = z.object({
   phone: z.string().min(10, { message: 'Please enter a valid phone number' }),
   appointmentType: z.string().min(1, { message: 'Please select an appointment type' }),
   message: z.string().optional(),
+  reminderPreference: z.string().min(1, { message: 'Please select a reminder preference' }),
   consent: z.boolean().refine(value => value === true, {
     message: 'You must consent to continue',
   }),
@@ -51,6 +52,7 @@ const AppointmentForm = () => {
       phone: '',
       appointmentType: '',
       message: '',
+      reminderPreference: '',
       consent: false,
     },
   });
@@ -59,9 +61,23 @@ const AppointmentForm = () => {
     mutationFn: (data: Omit<AppointmentFormValues, 'consent'>) => 
       apiRequest('POST', '/api/appointments', data),
     onSuccess: () => {
+      // Customize message based on reminder preference
+      let reminderText = "";
+      const reminderPref = form.getValues("reminderPreference");
+      
+      if (reminderPref === "whatsapp") {
+        reminderText = "You'll receive appointment reminders via WhatsApp.";
+      } else if (reminderPref === "sms") {
+        reminderText = "You'll receive appointment reminders via text message.";
+      } else if (reminderPref === "both") {
+        reminderText = "You'll receive appointment reminders via both WhatsApp and text message.";
+      } else if (reminderPref === "email") {
+        reminderText = "You'll receive appointment reminders via email.";
+      }
+      
       toast({
         title: "Appointment Requested",
-        description: "Thank you! Your appointment request has been submitted. We will contact you shortly to confirm.",
+        description: `Thank you! Your appointment request has been submitted. We will contact you shortly to confirm. ${reminderText}`,
       });
       form.reset();
       setIsSubmitting(false);
@@ -81,6 +97,9 @@ const AppointmentForm = () => {
     
     // Remove consent field before sending to API
     const { consent, ...appointmentData } = data;
+    
+    // Log the reminder preference for development purposes
+    console.log(`Patient prefers ${data.reminderPreference} reminders`);
     
     appointmentMutation.mutate(appointmentData);
   };
@@ -169,6 +188,34 @@ const AppointmentForm = () => {
                       <SelectItem value="restorative">Restorative Treatment</SelectItem>
                       <SelectItem value="orthodontic">Orthodontic Consultation</SelectItem>
                       <SelectItem value="other">Other</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            
+            <FormField
+              control={form.control}
+              name="reminderPreference"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className="text-neutral-dark font-medium">Reminder Preference</FormLabel>
+                  <Select 
+                    onValueChange={field.onChange} 
+                    defaultValue={field.value}
+                  >
+                    <FormControl>
+                      <SelectTrigger className="px-4 py-2 border border-neutral-medium rounded-md focus:outline-none focus:ring-2 focus:ring-primary-light">
+                        <SelectValue placeholder="How should we remind you?" />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      <SelectItem value="whatsapp">WhatsApp Messages</SelectItem>
+                      <SelectItem value="sms">SMS Text Messages</SelectItem>
+                      <SelectItem value="both">Both WhatsApp & SMS</SelectItem>
+                      <SelectItem value="email">Email Only</SelectItem>
+                      <SelectItem value="none">No Reminders</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />
