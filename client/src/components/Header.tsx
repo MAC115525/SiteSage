@@ -42,6 +42,9 @@ const Header = () => {
             <Link href="/facilities" className={`${isActive('/facilities') ? 'text-primary' : 'text-neutral-darkest hover:text-primary'} font-medium`}>
               Facilities
             </Link>
+            <Link href="/telehealth" className={`${isActive('/telehealth') ? 'text-primary' : 'text-neutral-darkest hover:text-primary'} font-medium`}>
+              Telehealth
+            </Link>
             <Link href="/contact" className={`${isActive('/contact') ? 'text-primary' : 'text-neutral-darkest hover:text-primary'} font-medium`}>
               Contact
             </Link>
@@ -87,6 +90,9 @@ const Header = () => {
               </Link>
               <Link href="/facilities" className={`${isActive('/facilities') ? 'text-primary' : 'text-neutral-darkest hover:text-primary'} font-medium py-2`} onClick={() => setMobileMenuOpen(false)}>
                 Facilities
+              </Link>
+              <Link href="/telehealth" className={`${isActive('/telehealth') ? 'text-primary' : 'text-neutral-darkest hover:text-primary'} font-medium py-2`} onClick={() => setMobileMenuOpen(false)}>
+                Telehealth
               </Link>
               <Link href="/contact" className={`${isActive('/contact') ? 'text-primary' : 'text-neutral-darkest hover:text-primary'} font-medium py-2`} onClick={() => setMobileMenuOpen(false)}>
                 Contact

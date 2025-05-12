@@ -13,6 +13,7 @@ import Treatments from "@/pages/Treatments";
 import Specializations from "@/pages/Specializations";
 import SpecializationDetail from "@/pages/SpecializationDetail";
 import Facilities from "@/pages/Facilities";
+import Telehealth from "@/pages/Telehealth";
 import Contact from "@/pages/Contact";
 import Blog from "@/pages/Blog";
 import BlogPost from "@/pages/BlogPost";
@@ -30,6 +31,7 @@ function Router() {
           <Route path="/specializations" component={Specializations} />
           <Route path="/specializations/:slug" component={SpecializationDetail} />
           <Route path="/facilities" component={Facilities} />
+          <Route path="/telehealth" component={Telehealth} />
           <Route path="/contact" component={Contact} />
           <Route path="/blog" component={Blog} />
           <Route path="/blog/:slug" component={BlogPost} />
