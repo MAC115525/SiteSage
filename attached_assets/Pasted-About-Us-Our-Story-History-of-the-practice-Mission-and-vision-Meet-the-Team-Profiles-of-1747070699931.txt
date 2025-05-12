@@ -1,0 +1,168 @@
+About Us
+•	Our Story
+•	History of the practice
+•	Mission and vision
+Meet the Team
+•	Profiles of dentists and staff
+Dental Treatments
+•	Preventive Treatments
+o	Dental Cleanings (Prophylaxis)
+o	Fluoride Treatments
+o	Dental Sealants
+o	Oral Cancer Screenings
+•	Diagnostic Treatments
+o	Dental Exams
+o	X-rays (Radiographs)
+o	3D Imaging
+•	Restorative Treatments
+o	Fillings
+o	Crowns (Caps)
+o	Bridges
+o	Implants
+o	Inlays and Onlays
+o	Root Canal Therapy (Endodontics)
+o	Dentures
+	Partial Dentures
+	Full Dentures
+•	Cosmetic Treatments
+o	Teeth Whitening
+o	Veneers
+o	Bonding
+o	Cosmetic Contouring
+•	Orthodontic Treatments
+o	Braces
+o	Clear Aligners (e.g., Invisalign)
+o	Retainers
+•	Periodontal Treatments
+o	Scaling and Root Planing
+o	Gum Grafts
+o	Periodontal Surgery
+•	Oral Surgery
+o	Tooth Extractions
+o	Wisdom Teeth Removal
+o	Bone Grafting
+o	Jaw Surgery (Orthognathic Surgery)
+•	Prosthodontic Treatments
+o	Implant-Supported Dentures
+o	Full Mouth Reconstruction
+•	Other Treatments
+o	Night Guards
+o	Mouth Guards
+o	Sleep Apnea Appliances
+•	Specialized Treatments
+o	Pediatric Dentistry
+o	Sedation Dentistry
+o	TMJ Treatment
+Our Facilities
+•	Photos and descriptions of the clinic
+Specializations
+•	Overview Page
+o	Brief description of all specializations
+o	Links to detailed pages for each specialization
+Detailed Specialization Pages
+•	Prosthodontics
+o	Overview
+o	Treatments (Crowns, Bridges, Dentures, Implants)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Periodontics
+o	Overview
+o	Treatments (Gum Disease Treatment, Dental Implants, Cosmetic Procedures)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Oral and Maxillofacial Surgery
+o	Overview
+o	Treatments (Tooth Extractions, Corrective Jaw Surgery, Cleft Lip and Palate Surgery)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Endodontics
+o	Overview
+o	Treatments (Root Canal Therapy, Endodontic Surgery)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Orthodontics and Dentofacial Orthopedics
+o	Overview
+o	Treatments (Braces, Aligners, Orthodontic Appliances)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Oral Pathology
+o	Overview
+o	Services (Examination of Biopsy Samples, Research)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Pediatric Dentistry (Paedodontics)
+o	Overview
+o	Treatments (Preventive Care, Behavior Management)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Oral Medicine and Radiology
+o	Overview
+o	Services (Radiographic Imaging, Management of Oral Diseases)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Cosmetic Dentistry
+o	Overview
+o	Treatments (Teeth Whitening, Veneers, Bonding, Smile Makeovers)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Implant Dentistry
+o	Overview
+o	Treatments (Implant Placement, Restoration with Crowns/Bridges/Dentures)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+•	Public Health Dentistry
+o	Overview
+o	Activities (Dental Health Education, Research, Administration of Care Programs)
+o	Benefits
+o	FAQs
+o	Request an Appointment
+o	Referrals
+o	International Patients
+Contact Us
+•	Contact Form
+o	Name, Email, Phone, Message
+o	Appointment booking option
+•	Location
+o	Address with map integration
+o	Parking and accessibility information
+•	Operating Hours
+o	Detailed hours of operation
+Blog
+•	Articles and Updates
+o	Educational content
+o	News and updates from the practice
+o	Patient stories and case studies
+Additional Pages
+•	Privacy Policy
+•	Terms of Service
+
