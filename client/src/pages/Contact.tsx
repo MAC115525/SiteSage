@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <>
       <SEO 
-        title="Contact Us" 
-        description="Contact Smiles Dental Clinic to schedule an appointment, ask questions, or get directions to our office. We're here to help with all your dental care needs." 
+        title="Contact Us | Dental Diagnostic Centre" 
+        description="Contact DDC - Dental Diagnostic Centre in Bengaluru to schedule an appointment with Dr. Salauddin Khan, request a consultation, or get directions to our Richmond Road location." 
       />
       
       {/* Page Header */}
@@ -35,12 +35,18 @@ const Contact = () => {
                   Karnataka 560025<br />
                   India
                 </p>
-                <div className="rounded-lg overflow-hidden shadow-md h-64 mb-4 bg-neutral-medium flex items-center justify-center">
-                  {/* Google Map would be embedded here in a real implementation */}
-                  <div className="text-neutral-dark">
-                    <i className="fa-solid fa-map-location-dot text-primary text-4xl mb-4 block"></i>
-                    <span>Google Map Would Appear Here</span>
-                  </div>
+                <div className="rounded-lg overflow-hidden shadow-md h-64 mb-4">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.034080534542!2d77.6069305!3d12.9658903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16836e1ab061%3A0xb390622d12d7f4a6!2sParvathi%20Plaza%2C%20Richmond%20Rd%2C%20Langford%20Gardens%2C%20Bengaluru%2C%20Karnataka%20560025%2C%20India!5e0!3m2!1sen!2sus!4v1685532678929!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0 }} 
+                    allowFullScreen={true} 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Dental Diagnostic Centre location map"
+                    aria-label="Google Map showing the location of Dental Diagnostic Centre"
+                  ></iframe>
                 </div>
                 <p className="text-sm text-neutral-dark">
                   <i className="fa-solid fa-circle-info mr-1"></i>
@@ -79,7 +85,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-neutral-dark">(123) 456-7890</p>
+                      <p className="text-neutral-dark">+91 80 2224 5678</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -88,7 +94,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-neutral-dark">info@smilesdental.com</p>
+                      <p className="text-neutral-dark">info@dentaldiagnosticcentre.com</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -97,7 +103,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Emergency Care</p>
-                      <p className="text-neutral-dark">(123) 555-9999</p>
+                      <p className="text-neutral-dark">+91 80 2224 5680</p>
                     </div>
                   </li>
                 </ul>
@@ -147,23 +153,23 @@ const Contact = () => {
               <ul className="space-y-2 text-neutral-dark">
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>Delta Dental</span>
+                  <span>Star Health</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>Cigna</span>
+                  <span>Manipal Cigna</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>MetLife</span>
+                  <span>Aditya Birla Health</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>Aetna</span>
+                  <span>HDFC ERGO Health</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>Guardian</span>
+                  <span>Apollo Munich Health</span>
                 </li>
               </ul>
               <p className="text-neutral-dark mt-4">
@@ -179,23 +185,23 @@ const Contact = () => {
               <ul className="space-y-2 text-neutral-dark">
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>Cash, check, and major credit cards</span>
+                  <span>Cash, UPI, and all major credit/debit cards</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>Flexible spending accounts (FSA)</span>
+                  <span>National health insurance coverage</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>Health savings accounts (HSA)</span>
+                  <span>Corporate health plans</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>CareCredit healthcare financing</span>
+                  <span>EMI options available with select banks</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-check text-primary mt-1 mr-3"></i>
-                  <span>In-house payment plans for qualified patients</span>
+                  <span>Personalized payment plans for extensive treatments</span>
                 </li>
               </ul>
               <p className="text-neutral-dark mt-4">
