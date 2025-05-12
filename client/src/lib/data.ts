@@ -44,6 +44,21 @@ export const features = [
     icon: "fa-solid fa-wand-magic-sparkles",
     title: "Advanced Diagnostics",
     description: "Our center combines minimally invasive techniques with advanced diagnostics for optimal outcomes with maximum comfort."
+  },
+  {
+    icon: "fa-solid fa-mobile-screen-button",
+    title: "Digital Communications",
+    description: "Stay connected with automated appointment reminders via text, email, and phone to ensure you never miss a scheduled visit."
+  },
+  {
+    icon: "fa-solid fa-video",
+    title: "Telehealth Consultations",
+    description: "Access our expertise from anywhere with secure video conferencing for follow-ups, second opinions, and initial consultations."
+  },
+  {
+    icon: "fa-solid fa-comments",
+    title: "AI-Driven Support",
+    description: "Get immediate answers to your questions through our AI-powered live chat, available 24/7 to address your dental concerns."
   }
 ];
 
@@ -76,7 +91,12 @@ export const facilityFeatures = [
   "Advanced diagnostic technology for precision treatment planning",
   "Minimally invasive treatment techniques",
   "Sterilization protocols exceeding international standards",
-  "Private consultation spaces for unhurried discussions"
+  "Private consultation spaces for unhurried discussions",
+  "Video conferencing suite for remote consultations and telehealth",
+  "Automated appointment reminder system for seamless scheduling",
+  "AI-driven patient education tools and interactive consultations",
+  "Digital treatment planning with 3D visualization technology",
+  "Secure patient portal for accessing records and treatment plans"
 ];
 
 // Insurance Information
@@ -121,5 +141,13 @@ export const commonFAQs = [
   {
     question: "How can I schedule a consultation with Dr. Khan?",
     answer: "You can schedule directly through our website, call our office at +91 80 2224 5678, or email us at info@dentaldiagnosticcentre.com. For complex cases, we recommend mentioning your concerns when booking so we can allocate appropriate consultation time."
+  },
+  {
+    question: "Do you offer telehealth consultations?",
+    answer: "Yes, we provide secure video conferencing for follow-up appointments, second opinions, and initial consultations for patients who cannot visit our clinic in person. This service is particularly helpful for our international patients and those with mobility challenges."
+  },
+  {
+    question: "How does your automated reminder system work?",
+    answer: "Our digital communication system sends automated appointment reminders via your preferred method—text, email, or phone call—to ensure you never miss an appointment. You can customize your reminder preferences through our patient portal or by speaking with our reception team."
   }
 ];
