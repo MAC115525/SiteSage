@@ -30,9 +30,10 @@ const Contact = () => {
               <div className="mb-8">
                 <h2 className="font-heading font-semibold text-2xl mb-4">Our Location</h2>
                 <p className="text-neutral-dark mb-4">
-                  123 Dental Way<br />
-                  Smile City, SC 12345<br />
-                  United States
+                  Parvathi Plaza, Richmond Rd<br />
+                  Langford Gardens, Bengaluru<br />
+                  Karnataka 560025<br />
+                  India
                 </p>
                 <div className="rounded-lg overflow-hidden shadow-md h-64 mb-4 bg-neutral-medium flex items-center justify-center">
                   {/* Google Map would be embedded here in a real implementation */}

@@ -50,11 +50,11 @@ export const features = [
 // Location and Contact data
 export const contactInfo = {
   address: {
-    street: "123 Dental Way",
-    city: "Smile City",
-    state: "SC",
-    zip: "12345",
-    country: "United States"
+    street: "Parvathi Plaza, Richmond Rd",
+    city: "Langford Gardens, Bengaluru",
+    state: "Karnataka",
+    zip: "560025",
+    country: "India"
   },
   phone: "(123) 456-7890",
   emergencyPhone: "(123) 555-9999",

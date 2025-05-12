@@ -15,7 +15,7 @@ const SEO = ({
   ogImage = "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630", 
   ogType = "website" 
 }: SEOProps) => {
-  const fullTitle = `${title} | Smiles Dental Clinic`;
+  const fullTitle = `${title} | Dental Diagnostic Centre`;
   
   return (
     <Helmet>

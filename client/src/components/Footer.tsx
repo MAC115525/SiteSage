@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <i className="fa-solid fa-tooth text-white text-2xl mr-2"></i>
-              <span className="text-white font-heading font-bold text-xl">Smiles Dental Clinic</span>
+              <span className="text-white font-heading font-bold text-xl">Dental Diagnostic Centre</span>
             </div>
             <p className="text-white/80 mb-6">
               Providing exceptional dental care for the whole family with a focus on comfort, quality, and education.
@@ -58,7 +58,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <i className="fa-solid fa-location-dot mt-1 mr-3"></i>
-                <span className="text-white/80">123 Dental Way<br />Smile City, SC 12345</span>
+                <span className="text-white/80">Parvathi Plaza, Richmond Rd<br />Langford Gardens, Bengaluru<br />Karnataka 560025</span>
               </li>
               <li className="flex items-start">
                 <i className="fa-solid fa-phone mt-1 mr-3"></i>
@@ -78,7 +78,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-white/20 text-center">
           <p className="text-white/80 text-sm">
-            &copy; {new Date().getFullYear()} Smiles Dental Clinic. All rights reserved. | 
+            &copy; {new Date().getFullYear()} Dental Diagnostic Centre. All rights reserved. | 
             <Link href="/privacy-policy" className="hover:text-white ml-1">Privacy Policy</Link> | 
             <Link href="/terms-of-service" className="hover:text-white ml-1">Terms of Service</Link>
           </p>

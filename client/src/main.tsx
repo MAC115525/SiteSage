@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
-document.title = "Smiles Dental Clinic | Professional Dental Care";
+document.title = "Dental Diagnostic Centre | Professional Dental Care";
 
 // Add the font links
 const fontLinks = `
@@ -15,15 +15,15 @@ const fontLinks = `
 // Add a meta description
 const metaDescription = document.createElement('meta');
 metaDescription.name = 'description';
-metaDescription.content = 'Smiles Dental Clinic offers comprehensive dental care with a focus on patient comfort and cutting-edge technology. Our team of specialists provides preventive, restorative, cosmetic, orthodontic, and surgical dental services.';
+metaDescription.content = 'Dental Diagnostic Centre offers comprehensive dental care with a focus on patient comfort and cutting-edge technology. Our team of specialists provides preventive, restorative, cosmetic, orthodontic, and surgical dental services.';
 document.head.appendChild(metaDescription);
 
 // Add Open Graph tags
 const ogTags = [
-  { property: 'og:title', content: 'Smiles Dental Clinic | Professional Dental Care' },
+  { property: 'og:title', content: 'Dental Diagnostic Centre | Professional Dental Care' },
   { property: 'og:description', content: 'Experience exceptional dental care with our team of specialists dedicated to your oral health and beautiful smile.' },
   { property: 'og:type', content: 'website' },
-  { property: 'og:url', content: 'https://smilesdental.com' },
+  { property: 'og:url', content: 'https://dentaldiagnosticcentre.com' },
   { property: 'og:image', content: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630' }
 ];
 
