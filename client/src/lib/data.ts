@@ -7,24 +7,24 @@
 export const testimonials = [
   {
     rating: 5,
-    quote: "I've been terrified of dentists my entire life, but Dr. Johnson and her team made me feel completely at ease. For the first time, I actually look forward to my dental appointments!",
+    quote: "Three generations of my family have trusted Dr. Salauddin Khan with our dental care. His expertise and personalized approach is unmatched in Bengaluru. What keeps us coming back is not just the quality of care but the way DDC treats us like family.",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80",
-    name: "Jennifer K.",
-    duration: "Patient for 3 years"
+    name: "Rahul M.",
+    duration: "Patient for 25 years"
   },
   {
     rating: 5,
-    quote: "The Invisalign treatment I received from Dr. Chen completely transformed my smile. The process was smooth, and the results exceeded my expectations. I couldn't be happier!",
+    quote: "As someone who was terrified of dental visits, Dr. Khan's gentle approach completely changed my experience. The warm, boutique setting of DDC makes you forget you're at a dental clinic. After my smile makeover, I can't stop recommending them to everyone I know!",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80",
-    name: "David M.",
-    duration: "Patient for 2 years"
+    name: "Priya S.",
+    duration: "Patient for 5 years"
   },
   {
     rating: 5,
-    quote: "My daughter used to be terrified of the dentist until we found Dr. Rodriguez. Her gentle approach and fun environment made all the difference. Now my daughter reminds ME when it's time for her checkup!",
+    quote: "I travel between London and Bengaluru for work, and I specifically schedule my dental care during my Bengaluru trips to visit DDC. Dr. Khan's minimally invasive approach to implants saved me from extensive surgery that was recommended elsewhere. Worth every air mile!",
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80",
-    name: "Sophia T.",
-    duration: "Patient for 4 years"
+    name: "James T.",
+    duration: "Patient for 7 years"
   }
 ];
 
@@ -32,18 +32,18 @@ export const testimonials = [
 export const features = [
   {
     icon: "fa-solid fa-user-doctor",
-    title: "Expert Specialists",
-    description: "Our team of specialists brings years of experience and expertise to provide you with the best dental care."
+    title: "50 Years of Excellence",
+    description: "Founded by Dr. Salauddin Khan, DDC has a legacy of trust spanning over five decades and three generations of patients."
   },
   {
     icon: "fa-solid fa-teeth",
-    title: "Comprehensive Care",
-    description: "From preventive care to complex procedures, we offer a full range of dental services for the whole family."
+    title: "Boutique Experience",
+    description: "We offer a warm, personalized approach to dental care in a boutique-style setting where every patient is treated like family."
   },
   {
     icon: "fa-solid fa-wand-magic-sparkles",
-    title: "Advanced Technology",
-    description: "We utilize the latest dental technology to provide efficient, comfortable, and effective treatments."
+    title: "Advanced Diagnostics",
+    description: "Our center combines minimally invasive techniques with advanced diagnostics for optimal outcomes with maximum comfort."
   }
 ];
 
@@ -56,9 +56,9 @@ export const contactInfo = {
     zip: "560025",
     country: "India"
   },
-  phone: "(123) 456-7890",
-  emergencyPhone: "(123) 555-9999",
-  email: "info@smilesdental.com",
+  phone: "+91 80 2224 5678",
+  emergencyPhone: "+91 80 2224 5680",
+  email: "info@dentaldiagnosticcentre.com",
   hours: {
     monday: "8:00 AM - 5:00 PM",
     tuesday: "8:00 AM - 5:00 PM",
@@ -72,54 +72,54 @@ export const contactInfo = {
 
 // Facility Features
 export const facilityFeatures = [
-  "Modern, comfortable treatment rooms",
-  "Digital imaging technology",
-  "Intraoral cameras for patient education",
-  "Sterilization center exceeding industry standards",
-  "Welcoming reception area with amenities"
+  "Warm, boutique-style setting designed for comfort and relaxation",
+  "Advanced diagnostic technology for precision treatment planning",
+  "Minimally invasive treatment techniques",
+  "Sterilization protocols exceeding international standards",
+  "Private consultation spaces for unhurried discussions"
 ];
 
 // Insurance Information
 export const insuranceInfo = {
   acceptedPlans: [
-    "Delta Dental",
-    "Cigna",
-    "MetLife",
-    "Aetna",
-    "Guardian",
-    "UnitedHealthcare",
-    "Humana",
-    "BlueCross BlueShield"
+    "Star Health",
+    "Manipal Cigna",
+    "Aditya Birla Health",
+    "HDFC ERGO Health",
+    "Bajaj Allianz Health",
+    "Religare Health",
+    "Max Bupa Health",
+    "Apollo Munich Health"
   ],
   paymentOptions: [
-    "Cash, check, and major credit cards",
-    "Flexible spending accounts (FSA)",
-    "Health savings accounts (HSA)",
-    "CareCredit healthcare financing",
-    "In-house payment plans for qualified patients"
+    "Cash, UPI, and all major credit/debit cards",
+    "National health insurance coverage",
+    "Corporate health plans",
+    "EMI options available with select banks",
+    "Personalized payment plans for extensive treatments"
   ]
 };
 
 // FAQ data
 export const commonFAQs = [
   {
-    question: "How often should I visit the dentist?",
-    answer: "We recommend visiting the dentist every six months for a regular check-up and cleaning. However, some patients may need more frequent visits depending on their oral health needs."
+    question: "What makes DDC different from other dental clinics?",
+    answer: "Unlike high-volume practices, DDC offers a personalized boutique experience where Dr. Salauddin Khan's 50+ years of expertise is applied to each patient. Our legacy spans three generations of patients, with children once treated now returning as parents and grandparents."
   },
   {
     question: "What should I do in a dental emergency?",
-    answer: "Contact our office immediately at (123) 555-9999. For after-hours emergencies, follow the instructions on our voicemail. If you're experiencing severe pain, bleeding, or trauma, go to the nearest emergency room."
+    answer: "Contact our office immediately at +91 80 2224 5680. For after-hours emergencies, follow the instructions on our voicemail. If you're experiencing severe pain, bleeding, or trauma, go to the nearest emergency room while contacting us."
   },
   {
-    question: "Do you see children?",
-    answer: "Yes! We provide dental care for patients of all ages, from children to seniors. Dr. Rodriguez specializes in pediatric dentistry and creates a fun, comfortable environment for our youngest patients."
+    question: "Do you work with international patients?",
+    answer: "Yes! We regularly treat international patients and professionals who travel to Bengaluru. Dr. Khan's international training and understanding of global standards ensures that patients from abroad receive care that meets or exceeds what they're accustomed to in their home countries."
   },
   {
-    question: "Do you offer sedation for anxious patients?",
-    answer: "Yes, we offer various sedation options for patients with dental anxiety, ranging from mild nitrous oxide (laughing gas) to oral conscious sedation for more severe anxiety."
+    question: "What advanced procedures does Dr. Khan specialize in?",
+    answer: "Dr. Khan is particularly renowned for full-mouth rehabilitation, minimally invasive implants, and complex orthodontic cases. His approach emphasizes preservation of natural tooth structure whenever possible."
   },
   {
-    question: "How can I improve my smile?",
-    answer: "We offer numerous cosmetic options including teeth whitening, veneers, bonding, and clear aligners. Schedule a consultation to discuss which options might be best for your specific goals."
+    question: "How can I schedule a consultation with Dr. Khan?",
+    answer: "You can schedule directly through our website, call our office at +91 80 2224 5678, or email us at info@dentaldiagnosticcentre.com. For complex cases, we recommend mentioning your concerns when booking so we can allocate appropriate consultation time."
   }
 ];
