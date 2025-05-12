@@ -11,7 +11,7 @@ const AboutUs = () => {
     <>
       <SEO 
         title="About Us" 
-        description="Learn about Smiles Dental Clinic's history, mission, and meet our team of dental professionals dedicated to exceptional patient care." 
+        description="Learn about Dental Diagnostic Centre's 50-year legacy, founded by Dr. Salauddin Khan, and meet our team of dental professionals dedicated to exceptional patient care." 
       />
       
       {/* Page Header */}
@@ -29,13 +29,19 @@ const AboutUs = () => {
             <div>
               <h2 className="font-heading font-bold text-3xl text-neutral-darkest mb-6">Our Story</h2>
               <p className="text-neutral-dark mb-6">
-                Founded in 1998, Smiles Dental Clinic began with a vision to transform dental care in our community. Dr. Sarah Johnson, our founder, believed that dental care should be compassionate, comprehensive, and accessible to everyone.
+                <span className="font-semibold italic">Bangalore's Beacon of Dental Excellence for Over 50 Years</span>
               </p>
               <p className="text-neutral-dark mb-6">
-                Over the years, we've grown from a small practice to a full-service dental clinic with multiple specialties, all while maintaining our commitment to personalized care and patient comfort.
+                In the leafy corridors of Richmond Road, beyond the traffic and tech bustle of Bengaluru, stands a sanctuary of smiles — one that has quietly transformed thousands of lives, one patient at a time.
+              </p>
+              <p className="text-neutral-dark mb-6">
+                Founded by the pioneering Dr. Salauddin Khan (BDS, MDS), DDC – Dental Diagnostic Center is not just a clinic. It is a story — of precision, integrity, and a generational bond with the people of Bangalore and beyond.
+              </p>
+              <p className="text-neutral-dark mb-6">
+                A former Professor of Orthodontics at St. John's Medical College and Consultant at St. Martha's Hospital, Dr. Khan has mentored not only students and peers but also families who continue to place their trust in his healing hands.
               </p>
               <p className="text-neutral-dark">
-                Our team has expanded to include specialists in various fields of dentistry, allowing us to provide comprehensive care under one roof. We've also continually invested in advanced technology and training to ensure we offer the most effective and comfortable treatments available.
+                But what truly defines DDC is its legacy of three generations. Children once treated for misaligned teeth now return as parents and even grandparents — a living testament to the center's enduring promise of care.
               </p>
             </div>
             <div>
@@ -50,22 +56,38 @@ const AboutUs = () => {
         </div>
       </section>
       
-      {/* Mission and Vision Section */}
+      {/* Philosophy Section */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="font-heading font-bold text-3xl text-neutral-darkest mb-6">Our Mission & Vision</h2>
+            <h2 className="font-heading font-bold text-3xl text-neutral-darkest mb-6">Our Philosophy</h2>
             <div className="mb-10">
-              <h3 className="font-heading font-semibold text-2xl mb-4">Mission</h3>
+              <p className="text-neutral-dark text-xl italic font-medium mb-2">
+                "Dentistry is not just about fixing teeth. It's about restoring confidence, 
+                preserving dignity, and honoring every patient's story."
+              </p>
               <p className="text-neutral-dark text-lg">
-                To improve the oral health of our community by providing exceptional, patient-centered dental care in a comfortable and welcoming environment, utilizing the latest technology and evidence-based practices.
+                — Dr. Salauddin Khan
               </p>
             </div>
-            <div>
-              <h3 className="font-heading font-semibold text-2xl mb-4">Vision</h3>
-              <p className="text-neutral-dark text-lg">
-                To be the trusted dental home for our community where patients of all ages feel valued, informed, and empowered to achieve optimal oral health, and where our team is inspired to deliver excellence in every aspect of care.
-              </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 text-left">
+              <div>
+                <h3 className="font-heading font-semibold text-2xl mb-4">Our Approach</h3>
+                <p className="text-neutral-dark">
+                  At DDC, advanced diagnostics meet compassionate care. Whether it's a full-mouth rehabilitation, 
+                  pediatric dentistry, smile makeovers, or minimally invasive implants — every treatment is approached 
+                  with quiet excellence and deep human connection.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-heading font-semibold text-2xl mb-4">Our Promise</h3>
+                <p className="text-neutral-dark">
+                  The clinic's warm, boutique-style setting reflects its ethos — where time slows down, conversations 
+                  matter, and every patient is treated like family. Whether you're a corporate professional, a global 
+                  traveler seeking quality care in India, or a senior wanting to smile without hesitation — DDC welcomes 
+                  you with warmth, expertise, and legacy-backed trust.
+                </p>
+              </div>
             </div>
           </div>
         </div>

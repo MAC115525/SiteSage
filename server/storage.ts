@@ -245,23 +245,23 @@ export class MemStorage implements IStorage {
     // Seed Team Members
     const teamMembers: InsertTeamMember[] = [
       {
-        name: "Dr. Sarah Johnson",
-        title: "Prosthodontist, Founder",
-        bio: "Dr. Johnson has over 20 years of experience in prosthodontics and is passionate about restoring smiles and patient confidence.",
-        imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350",
+        name: "Dr. Salauddin Khan",
+        title: "BDS, MDS, Founder & Lead Orthodontist",
+        bio: "Dr. Salauddin Khan is the pioneering founder of DDC, with over 50 years of experience. A former Professor of Orthodontics at St. John's Medical College and Consultant at St. Martha's Hospital, he has mentored students, peers, and treated generations of families. His approach combines advanced diagnostics with compassionate care.",
+        imageUrl: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350",
         order: 1
       },
       {
         name: "Dr. Michael Chen",
-        title: "Orthodontist",
-        bio: "Specializing in orthodontics for all ages, Dr. Chen is known for creating beautiful, aligned smiles with the latest techniques.",
+        title: "Prosthodontist",
+        bio: "Specializing in prosthodontics, Dr. Chen is known for full-mouth rehabilitation, smile makeovers, and minimally invasive implants using the latest techniques and technology.",
         imageUrl: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350",
         order: 2
       },
       {
         name: "Dr. Maria Rodriguez",
         title: "Pediatric Dentist",
-        bio: "Dr. Rodriguez specializes in children's dentistry, creating positive dental experiences for our youngest patients.",
+        bio: "Dr. Rodriguez specializes in children's dentistry, creating positive dental experiences for our youngest patients in a warm, welcoming environment.",
         imageUrl: "https://images.unsplash.com/photo-1607990283143-2c5e98371f72?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350",
         order: 3
       }
