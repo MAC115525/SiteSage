@@ -26,7 +26,7 @@ const Home = () => {
     <>
       <SEO 
         title="Professional Dental Care" 
-        description="Experience exceptional dental care with our team of specialists dedicated to your oral health and beautiful smile."
+        description="Discover Dental Diagnostic Centre's 50-year legacy of excellence under Dr. Salauddin Khan. From global celebrities to local families, we inspire trust one smile at a time."
       />
       
       <Hero />
@@ -40,22 +40,22 @@ const Home = () => {
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-neutral-darkest mb-4">About Us</h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-lg text-neutral-dark max-w-3xl mx-auto">
-              Discover our story, our mission, and the dedicated team behind Smiles Dental Clinic.
+              Discover the 50-year legacy, philosophy, and dedicated team behind Dental Diagnostic Centre.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h3 className="font-heading font-semibold text-2xl text-neutral-darkest mb-4">Our Story</h3>
+              <h3 className="font-heading font-semibold text-2xl text-neutral-darkest mb-4">Our Legacy</h3>
               <p className="text-neutral-dark mb-4">
-                Founded in 1998, Smiles Dental Clinic began with a vision to transform dental care in our community. Dr. Sarah Johnson, our founder, believed that dental care should be compassionate, comprehensive, and accessible to everyone.
+                In the leafy corridors of Richmond Road, beyond the traffic and tech bustle of Bengaluru, stands a sanctuary of smiles — one that has quietly transformed thousands of lives, one patient at a time.
               </p>
               <p className="text-neutral-dark mb-4">
-                Over the years, we've grown from a small practice to a full-service dental clinic with multiple specialties, all while maintaining our commitment to personalized care and patient comfort.
+                Founded by the pioneering Dr. Salauddin Khan (BDS, MDS), former Professor of Orthodontics at St. John's Medical College and Consultant at St. Martha's Hospital, DDC is not just a clinic. It is a story — of precision, integrity, and a generational bond with the people of Bangalore and beyond.
               </p>
-              <h3 className="font-heading font-semibold text-2xl text-neutral-darkest mb-4 mt-8">Our Mission</h3>
-              <p className="text-neutral-dark">
-                To improve the oral health of our community by providing exceptional, patient-centered dental care in a comfortable and welcoming environment, utilizing the latest technology and evidence-based practices.
+              <h3 className="font-heading font-semibold text-2xl text-neutral-darkest mb-4 mt-8">Our Philosophy</h3>
+              <p className="text-neutral-dark italic">
+                "Dentistry is not just about fixing teeth. It's about restoring confidence, preserving dignity, and honoring every patient's story." — Dr. Salauddin Khan
               </p>
             </div>
             <div>
@@ -245,9 +245,9 @@ const Home = () => {
                     Request Appointment
                   </Button>
                 </Link>
-                <a href="tel:+11234567890">
+                <a href="tel:+918022245678">
                   <Button className="w-full sm:w-auto bg-primary-dark hover:bg-primary-dark/90 text-white text-center font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out">
-                    <i className="fa-solid fa-phone mr-2"></i> Call: (123) 456-7890
+                    <i className="fa-solid fa-phone mr-2"></i> Call: +91 80 2224 5678
                   </Button>
                 </a>
               </div>

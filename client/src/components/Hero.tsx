@@ -8,10 +8,11 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-neutral-darkest mb-6">
-              Your Smile, <span className="text-primary">Our Passion</span>
+              <span className="text-primary">50 Years</span> of Trusted Dental Excellence
             </h1>
             <p className="text-lg md:text-xl text-neutral-dark mb-8">
-              Experience exceptional dental care with our team of specialists dedicated to your oral health and beautiful smile.
+              From global celebrities to local families, Dr. Salauddin Khan inspires trust — one smile at a time. 
+              Experience the legacy of three generations at Bengaluru's premier dental destination.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link href="/contact#appointment">
